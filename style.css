@@ -7,7 +7,6 @@
     --branco: white ;
     --cor5: #e5e2e2;
     --cor6: #0d0831cc;
-
     --font0: sans-serif;
     --ver: verdana;
 }
@@ -34,23 +33,28 @@ body {
 }
 
 main{
-    max-width: 920px;
+    max-width: 900px;
     min-width: 400px;
     margin: auto;
     padding-inline: 35px;
     margin-block: 30px;
-    background-color: var(--cor6);
+    background-color: var(--cor6); 
     border-radius: 10px;
     padding-bottom: 20px;
     text-align: justify;
     
   }
   
+footer{
+   background-color: var(--cor2);
+   height: 90px;
 
+}
 
-
-
-
+form{ 
+    color: white;
+    margin: 30px;
+}
 
 
 td{
